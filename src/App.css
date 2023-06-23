@@ -5,6 +5,6 @@
   display: flex;
   flex-direction: column;
 }
-.table{
+.table .heading{
   border: 1px,solid,black;
 }
