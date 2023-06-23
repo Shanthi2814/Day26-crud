@@ -13,7 +13,7 @@ const Home = () => {
       <p style={{ color: 'black', justifyContent: 'center', display: 'flex', fontFamily: 'inherit' }}>Click here!</p>
       <button style={{
         backgroundColor: 'black', color: 'white', justifyContent: 'center', display: 'flex',
-        position: 'absolute', top: '50%', left: '48%', borderRadius: '10px', padding: 7, fontFamily: 'sans-serif'
+        position: 'absolute', top: '60%', left: '48%', borderRadius: '10px', padding: 7, fontFamily: 'sans-serif'
       }} onClick={() => navigate("/about")}>
         AboutEmp</button>
     </div>
