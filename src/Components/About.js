@@ -41,7 +41,7 @@ const About = () => {
     };
 
     return (
-        <div className='about' style={{top: '10%',paddingLeft:500,paddingTop:100,paddingRight:600}}>
+        <div className='about' style={{top: '10%',paddingLeft:500,paddingTop:100,paddingRight:400}}>
 
        
         <div className='container' style={{ backgroundColor: 'Tan', padding: 100,paddingTop:10}}>
