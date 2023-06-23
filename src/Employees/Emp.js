@@ -2,7 +2,7 @@ import React from 'react'
 
 const Emp=props=> (
     <table className='table'>
-         <thead>
+         <thead className='heading'>
       <tr style={{color:'brown',fontSize:'1.5rem'}}>
         <th style={{padding:5}}>Name</th>
         <th style={{padding:5}}>Role</th>
