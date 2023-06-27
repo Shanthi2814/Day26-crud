@@ -13,7 +13,7 @@ const EditEmp = props=> {
   return (
     <form onSubmit={event=>{
         event.preventDefault();
-        props.udateEmp(emp.id, emp);
+        props.updateEmp(emp.id, emp);
     }}>
         <label><strong>Name</strong></label><br/>
         <input type='text' name='name'value={emp.name} onChange={handleInputChange} style={{padding:5 ,width:300}}/>
